@@ -9,6 +9,9 @@ var usersRouter = require('./routes/users');
 var tarjetaRegaloRouter = require('./routes/tarjetaRegalo');
 var promocionRouter = require('./routes/promocion');
 var productoRouter = require('./routes/producto');
+var tiendaRouter = require('./routes/tienda');
+var marcaRouter = require('./routes/marca');
+var cuponRouter = require('./routes/cupon');
 
 var app = express();
 
@@ -27,6 +30,10 @@ app.use('/users', usersRouter);
 app.use('/tarjetaRegalo', tarjetaRegaloRouter);
 app.use('/promocion', promocionRouter);
 app.use('/producto', productoRouter);
+app.use('/tiendas', tiendaRouter);
+app.use('/marcas', marcaRouter);
+app.use('/cupones', cuponRouter);
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
