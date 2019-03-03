@@ -13,10 +13,10 @@
         "idMarca": 2
       }
     ],
-    "idTienda":2,
+    "idTienda":2
   },
   {
-    "id": 1,
+    "id": 2,
     "nombre": "BlackFriday",
     "fechaDeInicio":"29/11/2019T01:00",
     "fechaDeFin":"29/11/2019T23:59",
@@ -29,6 +29,6 @@
         "idMarca": 2
       }
     ],
-    "idTienda":2,
+    "idTienda":2
   }
 ]
